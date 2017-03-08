@@ -5,12 +5,14 @@ exports.New = function() {
         count = defaultCount
     }
 
-    var inf = createDeployment({});
+    var inf = createDeployment({
+        namespace: "willsheu",
+    });
 
     var machine = new Machine({
         provider: "Amazon",
         size: "m4.xlarge",
-        sshKeys: githubKeys("ejj"),
+        sshKeys: githubKeys("PenguinToast"),
     });
 
     inf.deploy(machine.asMaster());

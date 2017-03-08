@@ -1,5 +1,5 @@
-var Inf = require("github.com/ejj/quilt-demo/inf");
-var Spark = require("github.com/ejj/quilt-demo/spark");
+var Inf = require("github.com/PenguinToast/quilt-demo/inf");
+var Spark = require("github.com/PenguinToast/quilt-demo/spark");
 
 var nSparkWorkers = 3;
 

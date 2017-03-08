@@ -1,7 +1,7 @@
-var HaProxy = require("github.com/NetSys/quilt/specs/haproxy/haproxy").Haproxy;
-var Mongo = require("github.com/NetSys/quilt/specs/mongo/mongo");
-var Node = require("github.com/NetSys/quilt/specs/node/node");
-var Inf = require("github.com/ejj/quilt-demo/inf");
+var HaProxy = require("github.com/quilt/haproxy/haproxy").Haproxy;
+var Mongo = require("github.com/quilt/mongo/mongo");
+var Node = require("github.com/quilt/node/node");
+var Inf = require("github.com/PenguinToast/quilt-demo/inf");
 
 var count = 4;
 var mongo = new Mongo(count);
